@@ -1,0 +1,84 @@
+.tabChild {
+  min-width: 210px;
+  max-height: 120px;
+  text-align: center;
+  border: 1px solid #dddddd;
+  border-bottom: 1.5px solid #888888;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+  margin: 0 20px;
+  border-radius: 10px;
+}
+
+.tabChild:hover {
+  cursor: pointer;
+  border: 1px solid #6b86ff;
+  border-bottom: 1.5px solid #6b86ff;
+}
+
+.tabChildDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.tabChild h2 {
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.greenTicker {
+  width: 25px;
+  height: 25px;
+  background-image: url("../icon/check-mark.png");
+  background-size: contain;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.grayTicker {
+  width: 25px;
+  height: 25px;
+  background-image: url("../icon/non-check.png");
+  background-size: contain;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.tabChildActive {
+  min-width: 210px;
+  max-height: 120px;
+  text-align: center;
+  border: 1px solid #6b86ff;
+  border-bottom: 1.5px solid #6b86ff;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+  margin: 0 20px;
+  border-radius: 10px;
+  background-color: beige;
+}
+
+.tabChildActive h2 {
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.tabChildError {
+  min-width: 210px;
+  max-height: 120px;
+  text-align: center;
+  border: 2px solid red;
+  border-bottom: 2.5px solid red;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+  margin: 0 20px;
+  border-radius: 10px;
+  background-color: rgb(252, 217, 237);
+}
+
+.tabChildError h2 {
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}

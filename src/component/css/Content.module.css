@@ -1,0 +1,149 @@
+/*************Header*****************/
+.header {
+  height: 80px;
+  width: 100vw;
+  border-bottom: 1px solid #333333;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.btn-submit-deader {
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+  background-color: #3f51b5;
+}
+
+/*************Content*****************/
+.content {
+  margin: 20px;
+  border: 0.5px solid #cccccc;
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1.5px solid #aaaaaa;
+  border-radius: 10px;
+}
+
+.tab-content {
+  width: 100%;
+  border-bottom: 0.5px solid #cccccc;
+  display: flex;
+}
+
+.tab {
+  padding: 0 20px;
+}
+
+.tab:hover {
+  cursor: pointer;
+}
+
+.tab:active {
+  animation: colorChange 1s infinite alternate ease-in-out;
+}
+
+.tab h3 {
+  font-weight: 400;
+  color: #666666;
+}
+
+.tab-general {
+  position: relative;
+}
+
+.tabAction {
+  border-bottom: 2px solid #3f51b5;
+}
+
+.tabAction h3 {
+  color: #3f51b5;
+}
+
+.tabNonAction {
+  border-bottom: none;
+}
+
+.tabNonAction h3 {
+  color: #666666;
+}
+
+.tab-imformation {
+  margin: 0 20px 20px 20px;
+  position: relative;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.tab-imformation h4 {
+  font-weight: 400;
+  color: #888888;
+}
+
+.tab-none-imformation {
+  margin: 0 20px 20px 20px;
+  position: relative;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+/***************tab chiến dịch************************/
+.tabChild {
+  margin: 20px;
+}
+
+.none-tabChild {
+  display: none;
+}
+
+.tabAddChild {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.addChild {
+  min-width: 48px;
+  height: 48px;
+  text-align: center;
+  background-color: #eeeeee;
+  border-radius: 90%;
+}
+
+.addChild:hover {
+  cursor: pointer;
+  background-color: #dddddd;
+}
+
+.addChild h4 {
+  color: red;
+  font-size: 26px;
+  margin: 0;
+  transform: translateY(10%);
+}
+
+/***************error****************************/
+.none-error {
+}
+
+.error-input {
+  border-bottom: 2px solid red;
+}
+
+/***************animation************************/
+@keyframes colorChange {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: rgb(105, 105, 132);
+  }
+  100% {
+    background-color: white;
+  }
+}

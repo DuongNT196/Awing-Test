@@ -1,0 +1,19 @@
+.contentTabChild {
+  margin-top: 25px;
+}
+
+.contentTabChild input {
+  margin-right: 40px;
+}
+
+.inputTabChild {
+  width: 50%;
+}
+
+.btnAdd {
+    margin-bottom: 10px;
+}
+
+.error-input {
+  border-bottom: 2px solid red;
+}
