@@ -38,7 +38,7 @@ const TabChild: React.FC<ChildDiv> = ({
     tabActive = "tabChild";
   }
 
-  if (checkSubmit && nameChild === "") {
+  if (checkSubmit && (nameChild === "" || numberJob <= 0)) {
     tabActive = "tabChildError";
   }
   return (
